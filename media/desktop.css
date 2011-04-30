@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #7ea4da;
+	font-family: "Trebuchet MS", sans;
+	font-size: 13px;
+	color: #212121;
+}
+
+.error {
+	border: 2px solid #c33;
+	color: #313131;
+	background-color: #f66;
+	text-shadow: none;
+	margin: 8px;
+	padding: 8px;
+}
+.labelPeta {
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #f33;
+	width: 70px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+#headbar {
+    position: absolute;
+    top: 0; left: 0;
+    right: 0;
+    height: 40px;
+	background-color: #fff;
+	border-bottom: 1px solid #616161;
+    padding: 0 24px;
+    z-index:10;
+}
+#headbar div {
+    position: relative;
+    bottom: 0;
+}
+
+#loading {
+	display: none;
+	position: absolute;
+	top:100px;
+	left: 50%;
+	margin-left: -50px;
+	padding: 12px;
+	border: 2px solid #33f;
+	background-color: #aaf;
+	z-index: 100;
+	text-align: center;
+	width: 100px;
+}
+#container {
+	margin: 0 auto;
+    margin-top: 44px;
+	width: 100%;
+    overflow: auto;
+	border: 1px;
+}
+#kiri {
+	float: left;
+    width: 20%;
+	overflow: auto;
+    padding-left: 4px;
+}
+#kanan {
+    float: right;
+    width: 78%;
+	background-color: #00f;
+}
+#peta {
+    background-color: #FFCC33;
+}
+.petamax {
+    position: absolute;
+    top: 44px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    z-index: 3;
+}
+#peta_btn {
+	background-color: #fff;
+    padding: 4px 8px;
+}
+.petabtnmax {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    z-index: 2;
+}
+
+#event {
+	background-color: #0D82F0;
+    overflow: auto;
+}
+
+.treeview li {
+    cursor: pointer;
+}
+.treeview li:hover {
+    background-color: #CDDCF1;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+.txtMedium {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.fclear {
+    clear: both;
+}
+#tcontrol a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+#tcontrol a:hover {
+    background-color: #CDDCF1;
+    color: #313131;
+}
+#alarm {
+    width: 100%;
+}
+#alarm thead {
+    background-color: #313131;
+    color: #f1f1f1;
+}

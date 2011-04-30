@@ -1,0 +1,29 @@
+body, table, h1, h2, h3, h4, hr {
+	margin: 0;
+	padding: 0;
+}
+
+#tbldata {
+    border-collapse:collapse;
+}
+#tbldata th {
+    font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background-color: #4f81bd;
+
+}
+#tbldata tr {
+	background: #b8cce4;
+	color: #000;
+}
+#tbldata tr:hover {
+    background-color: #d8d8d8;
+}
+#tbldata td {
+    padding: 3px 6px;
+    border-right: 1px solid #999;
+}
